@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+int n,sum,i,value;
+printf("enter number of integers you want to add");
+scanf("%d",&n);
+printf("enter the %d numbers",n);
+for(i=1;i<=n;i++)
+{
+    scanf("%d",&value);
+    sum=sum+value;
+}
+printf("the sum of numbers is %d",sum);
+}
